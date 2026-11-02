@@ -1,0 +1,24 @@
+{
+  "storeName": "BenatCode Digital Store",
+  "superProfileHandle": "benatcode",
+  "superProfileBaseUrl": "https://superprofile.bio/benatcode",
+  "payhipHandle": "benatcode",
+  "payhipBaseUrl": "https://payhip.com/benatcode",
+  "supportWhatsApp": "+91 84283 41029",
+  "supportEmail": "benatasban@gmail.com",
+  "adminUsername": "admin",
+  "apiIntegrations": {
+    "superProfile": {
+      "status": "Manual Link Integration",
+      "officialApiSupport": false,
+      "mcpServerUrl": "https://mcp.superprofile.bio/mcp",
+      "note": "SuperProfile provides AI-based Model Context Protocol (MCP) and dashboard page generation (/app/payment_pages), but no direct public REST CRUD API for arbitrary product creation."
+    },
+    "payhip": {
+      "status": "Manual Link Integration",
+      "officialApiSupport": "Limited (Coupons & License Keys only)",
+      "note": "Payhip REST API v2 exclusively supports Coupon and License Key management. Direct product creation endpoints are not exposed in their public API and must be published via Payhip dashboard (/products)."
+    }
+  },
+  "updatedAt": "2026-10-31T05:00:00.000Z"
+}
